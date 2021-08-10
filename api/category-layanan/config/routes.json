@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/category-layanans",
+      "handler": "category-layanan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/category-layanans/count",
+      "handler": "category-layanan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/category-layanans/:id",
+      "handler": "category-layanan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/category-layanans",
+      "handler": "category-layanan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/category-layanans/:id",
+      "handler": "category-layanan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/category-layanans/:id",
+      "handler": "category-layanan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

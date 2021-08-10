@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_homes",
+  "info": {
+    "name": "BannerHome"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

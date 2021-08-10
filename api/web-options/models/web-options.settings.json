@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "web_options",
+  "info": {
+    "name": "WebOptions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "NameWeb": {
+      "type": "string"
+    },
+    "CopyRight": {
+      "type": "string"
+    },
+    "TagLine": {
+      "type": "string"
+    }
+  }
+}

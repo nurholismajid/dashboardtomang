@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_layanans",
+  "info": {
+    "name": "CategoryLayanan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

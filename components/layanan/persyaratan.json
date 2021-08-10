@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layanan_persyaratans",
+  "info": {
+    "name": "Persyaratan",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "BesarFile": {
+      "type": "string"
+    }
+  }
+}

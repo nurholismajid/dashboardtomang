@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_layanans",
+  "info": {
+    "name": "DataLayanan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NamaLayanan": {
+      "type": "string"
+    },
+    "JanjiLayanan": {
+      "type": "string"
+    },
+    "category_layanan": {
+      "model": "category-layanan"
+    },
+    "Persyaratan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layanan.persyaratan"
+    }
+  }
+}
