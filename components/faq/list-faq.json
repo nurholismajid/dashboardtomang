@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faq_list_faqs",
+  "info": {
+    "name": "ListFAQ",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Pertanyaan": {
+      "type": "string"
+    },
+    "Jawaban": {
+      "type": "string"
+    }
+  }
+}
